@@ -628,7 +628,7 @@ case $ac_sys_system/$ac_sys_release in
   # has no effect, don't bother defining them
   Darwin/@<:@6789@:>@.*)
     define_xopen_source=no;;
-  Darwin/@<:@[12]@:>@@<:@0-9@:>@.*)
+  Darwin/@<:@[13]@:>@@<:@0-9@:>@.*)
     define_xopen_source=no;;
   # On QNX 6.3.2, defining _XOPEN_SOURCE prevents netdb.h from
   # defining NI_NUMERICHOST.
